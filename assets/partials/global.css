@@ -5,11 +5,16 @@
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,7 +24,37 @@
     padding: 10px;
 }
 
+.col-4{
+    width: 33.33%;
+    padding: 10px;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
 .d-flex{
     display: flex;
+}
+
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: PoppinsBold;
+}
+
+p{
+    font-family: PoppinsRegular;
 }
 

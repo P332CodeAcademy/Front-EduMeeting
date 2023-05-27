@@ -46,7 +46,7 @@ video{
 }
 .nav-items {
     align-items: center;
-    
+    justify-content: space-around;
 }
 
 .logo a{
@@ -99,18 +99,21 @@ video{
     margin-top: 20px;
 }
 .intro-button .btn{
-    font-size: 13px;
-    color: #fff;
-    background-color: #a12c2f;
-    padding: 12px 30px;
-    border-radius: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: all .3s;
     border-color: #a12c2f;
     margin-top: 20px;
     cursor: pointer;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 44, 47);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 500;
+    border: rgb(161, 44, 47);
 }
 
+.intro-button .btn:hover{
+    background-color: rgba(161, 44, 48, 0.854);
+}
 
 
