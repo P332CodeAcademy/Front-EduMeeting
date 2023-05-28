@@ -14,15 +14,33 @@
 
 <body>
 
-    <head>
+    <main>
+        <!-- Pageintro section start -->
         <section id="background-video">
+            <div class="navbar">
+                <div class="nav container row">
+                    <div class="logo col-3">
+                        <a href="#">EDU MEETING</a>
+                    </div>
+                    <div class="nav-items col-9 d-flex">
+                        <ul class="row">
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">MEETINGS</a></li>
+                            <li><a href="">APPLY NOW</a></li>
+                            <li><a href="">PAGES</a></li>
+                            <li><a href="">COURSES</a></li>
+                            <li><a href="">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="video">
                 <video autoplay loop muted>
                     <source src="./assets/videos/mainVideo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <div class="intro-sum">
-                    <div class="container row">
+                    <div class="container column">
                         <div class="col-6">
                             <h6>HELLO STUDENTS</h6>
                             <h2>WELCOME TO EDUCATION</h2>
@@ -36,27 +54,10 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar">
-                <div class="nav container row">
-                    <div class="logo col-6">
-                        <a href="#">EDU MEETING</a>
-                    </div>
-                    <div class="nav-items col-6 d-flex">
-                        <ul class="row">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">MEETINGS</a></li>
-                            <li><a href="">APPLY NOW</a></li>
-                            <li><a href="">PAGES</a></li>
-                            <li><a href="">COURSES</a></li>
-                            <li><a href="">CONTACT US</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </head>
 
-    <main>
+        </section>
+        <!-- Pageintro section end -->
+
         <!-- Card Section Start -->
         <section id="hello-students">
             <div class="hello-students container row">
@@ -93,12 +94,12 @@
                 <div class="meetings-section row container">
                     <div class="col-4 ">
                         <div class="meeting-categories">
-                            <div class="meeting-categories-title container-80">
+                            <div class="meeting-categories-title container-90">
                                 <h2>Meeting Catgories</h2>
                                 <hr class="meeting-categories-hr">
                             </div>
 
-                            <div class="meeting-categories-list container-80">
+                            <div class="meeting-categories-list container-90">
                                 <ul>
                                     <li><a href="#">Sed tempus enim leo</a></li>
                                     <li><a href="#">Sed tempus enim leo</a></li>
@@ -116,11 +117,11 @@
                     </div>
 
                     <div class="meetings-cards row col-8">
-                        <div class="col-4 row meeting-card">
+                        <div class="col-6 column meeting-card">
                             <div class="meetings-card-image">
                                 <img src="./assets/images/meeting-01.jpg" alt="meeting-card">
                             </div>
-                            <div class="col-8 container-80">
+                            <div class="container-80 row meeting-card-date">
                                 <div class="col-2">
                                     <h6 class="meeting-card-date-month">Nov</h6>
                                     <span class="meeting-card-date-day">10</span>
@@ -134,11 +135,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 row meeting-card">
+                        <div class="col-6 column meeting-card">
                             <div class="meetings-card-image">
                                 <img src="./assets/images/meeting-01.jpg" alt="meeting-card">
                             </div>
-                            <div class="col-8 container-80">
+                            <div class="col-8 container-80 meeting-card-date">
                                 <div class="col-2">
                                     <h6 class="meeting-card-date-month">Nov</h6>
                                     <span class="meeting-card-date-day">10</span>
@@ -152,11 +153,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 row meeting-card">
+                        <div class="col-6 column meeting-card">
                             <div class="meetings-card-image">
                                 <img src="./assets/images/meeting-01.jpg" alt="meeting-card">
                             </div>
-                            <div class="col-8 container-80">
+                            <div class="col-8 container-80 meeting-card-date">
                                 <div class="col-2">
                                     <h6 class="meeting-card-date-month">Nov</h6>
                                     <span class="meeting-card-date-day">10</span>
@@ -170,11 +171,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 row meeting-card">
+                        <div class="col-6 column meeting-card">
                             <div class="meetings-card-image">
                                 <img src="./assets/images/meeting-01.jpg" alt="meeting-card">
                             </div>
-                            <div class="col-8 container-80">
+                            <div class="col-8 container-80 meeting-card-date">
                                 <div class="col-2">
                                     <h6 class="meeting-card-date-month">Nov</h6>
                                     <span class="meeting-card-date-day">10</span>
@@ -199,7 +200,7 @@
         <!-- Bachleror degree section Start-->
         <section id="bachelor-degree">
             <div class="bachelor-section container row">
-                <div class="apply-bachelor-section col-6 row">
+                <div class="apply-bachelor-section col-6 column">
                     <div class="apply-bachelor-card ">
                         <div class="apply-bachelor-card-inner container">
                             <h2>APPLY FOR BACHELOR DEGREE</h2>
@@ -400,37 +401,40 @@
         <!-- Unevrisity Facts section end -->
 
         <section id="contact-us">
-            <div class="contact-us-wrapper container">
-                <div class="get-in-touch col-8">
+            <div class="contact-us-wrapper container d-flex">
+                <div class="get-in-touch col-6">
                     <div class="container-90">
-                        <div class="contact-us-head">
-                            <h5>LET'S GET IN TOUCH</h5>
-                            <hr>
-                        </div>
-                        <div class="column">
-                            <div class="row inputs-section">
-                                <div class="input-wrapper col-3">
-                                    <input placeholder="NAME" class="contact-us-input" type="text" name="" id="">
+                        <div class="contact-us-form ">
+                            <div class="contact-us-head">
+                                <h5>LET'S GET IN TOUCH</h5>
+                                <hr>
+                            </div>
+                            <div class="column">
+                                <div class="row inputs-section">
+                                    <div class="input-wrapper col-3">
+                                        <input placeholder="NAME" class="contact-us-input" type="text" name="" id="">
+                                    </div>
+                                    <div class="input-wrapper col-3">
+                                        <input placeholder="EMAIL" class="contact-us-input" type="text" name="" id="">
+                                    </div>
+                                    <div class="input-wrapper col-3">
+                                        <input placeholder="SUBJECT..." class="contact-us-input" type="text" name=""
+                                            id="">
+                                    </div>
                                 </div>
-                                <div class="input-wrapper col-3">
-                                    <input placeholder="EMAIL" class="contact-us-input" type="text" name="" id="">
+                                <div class="contact-text-area">
+                                    <textarea placeholder="YOUR MESSAGE" class="contact-us-textarea" name="" id=""
+                                        cols="30" rows="10"></textarea>
                                 </div>
-                                <div class="input-wrapper col-3">
-                                    <input placeholder="SUBJECT..." class="contact-us-input" type="text" name="" id="">
+                                <div class="contact-us-btn">
+                                    <button class="classic-btn">SEND MESSAGE NOW</button>
                                 </div>
                             </div>
-                            <div class="contact-text-area">
-                                <textarea placeholder="YOUR MESSAGE" class="contact-us-textarea" name="" id="" cols="30"
-                                    rows="10"></textarea>
-                            </div>
-                            <div class="contact-us-btn">
-                                <button class="classic-btn">SEND MESSAGE NOW</button>
-                            </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4">
                     <div class="container">
                         <div class="about-us-card">
 

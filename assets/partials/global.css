@@ -22,12 +22,12 @@
 }
 
 .col-6 {
-    width: 50%;
+    width: 48%;
     padding: 10px;
 }
 
 .col-4{
-    width: 33.33%;
+    width: 32%;
     padding: 10px;
 }
 
@@ -49,6 +49,9 @@
 
 .d-flex{
     display: flex;
+}
+.col-9{
+    width: 75%;
 }
 
 .container-80 {

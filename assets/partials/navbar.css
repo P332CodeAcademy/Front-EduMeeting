@@ -14,8 +14,6 @@ video{
     
 }
 
-
-
 .nav ul a{
     justify-content: space-around;
     text-decoration: none;
@@ -45,8 +43,10 @@ video{
     list-style: none;
 }
 .nav-items {
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    
 }
 
 .logo a{
@@ -65,16 +65,12 @@ video{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    text-align: center;
     color: #fff;
     width: 100%;
 }
-.intro-sum .row .col-6  {
-    
-    text-align: left;
-}
 
-.intro-sum .row .col-6 h2 {
+
+.intro-sum .column .col-6 h2 {
     
     margin-top: 20px;
     font-family: PoppinsBold;
@@ -85,7 +81,7 @@ video{
     letter-spacing: 1px;
 }
 
-.intro-sum .row .col-6 h6{
+.intro-sum .column .col-6 h6{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
@@ -94,7 +90,7 @@ video{
     font-family: PoppinsBold;
 }
 
-.intro-sum .row .col-6 p {
+.intro-sum .column .col-6 p {
     font-family: PoppinsRegular;
     margin-top: 20px;
 }
