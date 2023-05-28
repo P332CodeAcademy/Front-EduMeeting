@@ -1,0 +1,45 @@
+#popular-courses{
+    background-image: url(../images/meetings-bg.jpg);
+    background-attachment: fixed;
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+.courses-cards{
+    justify-content: space-between;
+}
+.course-card{
+    width: 340px;
+    background-color: aliceblue;
+    height: 422px;
+}
+.courses-card-image img{
+  width: 340px;
+
+}
+
+.courses-card-inner p{
+    padding: 25px;
+    font-size: 18px;
+    color: #1f272b;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.courses-card-inner i{
+    color: #f5a425;
+    font-size: 14px;
+}
+
+.courses-card-inner .row .price{
+    text-align: end;
+    color: #a12c2f;
+    font-size: 20px;
+    font-weight: 600;
+   
+    
+}
+
+.courses-header h2{
+    color: #eee;
+}
