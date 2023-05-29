@@ -20,6 +20,9 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
+.col12{
+    width: 100%;
+}
 
 .col-6 {
     width: 48%;
@@ -96,4 +99,3 @@ p{
     width: 90%;
     margin: 0 auto;
 }
-
