@@ -25,6 +25,7 @@
     font-weight: 600;
 }
 
+
 .hello-students .card p{
     color: #fff;
     font-size: 15px;
@@ -37,6 +38,7 @@
     height: 370px;
     margin-top: 20px;
     padding: 0px;
+    overflow: hidden;
     
 }
 .meetings-cards{
@@ -143,6 +145,8 @@
 
 .meeting-card-date{
     padding-top: 10px;
+    padding-left: 20px;
+    
 }
 
 

@@ -10,16 +10,21 @@
     background-color: rgb(251, 251, 251);
     height: 500px;
     border-radius: 20px;
-   
     margin-top: 20px;
     overflow:auto;
+    width: 830px;
+    
+}
+.get-in-touch-wrapper{
+    justify-content: space-around;
 }
 .inputs-section{
     justify-content: space-between;
 }
-
+.courses-card-inner .row{
+    justify-content: space-between;
+}
 .contact-us-input{
-    
     width: 100%;
     height: 40px;
     border-radius: 20px;
@@ -73,6 +78,7 @@
     border-radius: 20px;
     height: 550px;
     margin-left: 20px;
+   
     
 }
 
@@ -107,6 +113,11 @@
     margin-top: 20px;
 }
 
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .footer{
     padding-top: 190px;
     
@@ -118,7 +129,6 @@
     
 }
 
-.wrapper{
-    display: flex;
-    flex-wrap: wrap;
-}
+.about-us-card{
+    width: 300px;
+} 
