@@ -46,3 +46,10 @@
 .courses-header h2{
     color: #eee;
 }
+
+@media screen and (min-width: 370px) and (max-width:599px) {
+    .res-card{
+        display: none;
+    }
+    
+}

@@ -132,3 +132,32 @@
 .about-us-card{
     width: 300px;
 } 
+
+@media screen and (min-width: 370px) and (max-width:599px) {
+    .col-sm-3{
+        width: 100%;
+    }
+    .contact-us-input{
+        margin-bottom: 0px;
+        
+
+    }
+    .contact-us-head h5{
+        margin-bottom: 0px;
+    }
+    .get-in-touch{
+        height: 600px;
+    }
+    
+    .about-us-card{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .get-in-touch{
+        margin-bottom: 25px;
+    }
+    #contact-us{
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+}

@@ -1,3 +1,5 @@
+
+
 #bachelor-degree{
     background-image: url(../images/apply-bg.jpg);
     background-attachment: fixed;
@@ -12,6 +14,12 @@
     width: 650px;
 
 }
+.bachelor-section{
+display: flex;
+
+}
+
+
 
 .about-template{
     width: 40%;
@@ -56,3 +64,40 @@
     padding-bottom: 10px;
     
 }
+
+@media screen and (min-width: 370px) and (max-width:599px) {
+   
+  .apply-bachelor-card{
+    width: 100%;
+    height: 320px;
+    margin-left: 0px;
+   
+  }
+  .bachelor-section{
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .apply-bachelor-card-inner h2{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;  
+    margin-top: 20px; 
+    }
+    .apply-bachelor-card-inner p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    }
+
+    .about-template{
+        
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    
+
+}
+
