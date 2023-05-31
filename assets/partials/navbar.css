@@ -65,7 +65,7 @@ video{
 
 .intro-sum {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -115,7 +115,7 @@ video{
     background-color: rgba(161, 44, 48, 0.854);
 }
 
-@media screen and (min-width: 370px) and (max-width:599px) {
+@media screen and (min-width: 360px) and (max-width:599px) {
     .nav-items{
         display: none;
     }
@@ -151,7 +151,7 @@ video{
     
       .intro-sum {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 47%;
         transform: translate(-50%, -50%);
         z-index: 1;
@@ -182,6 +182,45 @@ video{
         font-size: 13px;
     }
 
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1438px) {
+    .nav{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        height: 100px;
+      }
+    .intro-sum {
+        position: absolute;
+        top: 45%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: #fff;
+        width: 100%;
+    }
+    .logo a{
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        
+    }
+     video {
+      height: 53rem;
+      object-fit: none;
+    }
+   
+    .nav ul a {
+      font-size: 10px;
+      font-weight: 900;
+    }
+    .nav-items  {
+      left: 3rem;
+      position: relative;
+      
+    }
     
 }
 

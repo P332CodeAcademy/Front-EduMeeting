@@ -77,7 +77,7 @@
 .university-facts-video{
     width: 50%;
 }
-@media screen and (min-width: 370px) and (max-width:599px) {
+@media screen and (min-width: 360px) and (max-width:599px) {
 
     .col-sm-6{
         width: 100%;
@@ -93,6 +93,25 @@
     }
     
 }
+@media screen and (min-width: 600px) and (max-width: 1438px) {
+    .col-md-12{
+        width: 100%;
+    }
+    .padded-col{
+        padding-top: 0px;
+        
+    }
+
+    .video-wrapper{
+        margin-left: 0px;
+        width: 95%;
+        height: 340px;
+        margin-top: 10px;
+        
+    }
+}
+
+
 
 
 

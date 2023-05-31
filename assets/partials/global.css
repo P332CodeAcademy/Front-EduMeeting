@@ -101,7 +101,11 @@ p{
 }
 
 
-
+@media screen and (min-width: 600px) and (max-width: 1438px) {
+    .col-md-6{
+        width: 100%;
+    }
+}
 
 
 

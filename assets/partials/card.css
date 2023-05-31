@@ -167,7 +167,7 @@
     
 }
 
-@media screen and (min-width: 370px) and (max-width:599px) {
+@media screen and (min-width: 360px) and (max-width:599px) {
     .col-sm-4{
         width: 100%;
       }
@@ -186,4 +186,31 @@
     }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1438px) {
+    .res-md-card{
+        display: none;
+    }
+    .col-md-4{
+        width: 50%;
+    }
+
+    .hello-students{
+        justify-content: space-between;
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .card{
+        width: 45%;
+       overflow: hidden;
+    }
+   
+    #hello-students .container{
+        width: 85%;
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+    
+}
 
